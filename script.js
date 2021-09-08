@@ -13,8 +13,13 @@ function draw() {
 
   ellipse(x,y,50,50);
   x = x + v;
+  y = y + -v;
 
   if(x <= 0 || x  > 500){
+    v = v * -1;
+  }
+ 
+  if(y <= 0 || x > 400){
     v = v * -1;
   }
 }
