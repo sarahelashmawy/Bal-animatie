@@ -12,7 +12,7 @@ class Ball{
 
   drawBall() {
 
-   fill(this._color);
+   fill(this.color);
    ellipse(this.x, this.y, this.w, this.h);
    this.x = this.x + this.vx;
    this.y = this.y + this.vy;
